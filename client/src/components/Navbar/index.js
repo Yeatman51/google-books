@@ -5,10 +5,9 @@ import "./style.css";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-    
-      
-        <ul className="navbar-nav">
+    <nav className="navbar">
+
+      <ul className="navbar-nav">
 
         <li className="nav-item">
             <Link
