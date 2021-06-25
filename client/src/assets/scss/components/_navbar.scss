@@ -1,0 +1,28 @@
+nav {
+    background-color: rgb(49, 47, 25);
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: nowrap;
+    ul {
+        text-decoration: none;
+        display: flex;
+        align-content: center;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: nowrap;
+      }
+      li{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        margin: 0 3vw 0 3vw;
+      }
+  }
+  
+  
+  
+  
