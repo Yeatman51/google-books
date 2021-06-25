@@ -1,6 +1,5 @@
 nav {
-  background-color: #312f19;
-  text-decoration: none;
+  background-color: #BD342F;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -9,7 +8,6 @@ nav {
   flex-wrap: nowrap;
 }
 nav ul {
-  text-decoration: none;
   display: flex;
   align-content: center;
   justify-content: space-around;
@@ -17,16 +15,25 @@ nav ul {
   flex-wrap: nowrap;
 }
 nav li {
-  text-decoration: none;
   text-transform: uppercase;
   color: white;
   margin: 0 3vw 0 3vw;
 }
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+footer {
+  background-color: #BD342F;
+  min-height: 20vh;
+}
 
 .home-container {
   width: 100%;
-  height: 90vh;
-  background-color: #35490d;
+  min-height: 90vh;
+  background-color: #F0443D;
 }
 
 .home-header {
@@ -38,7 +45,35 @@ nav li {
   padding: 25vh;
 }
 
-.home-header-text {
+.home-header-title {
   color: white;
   font-size: 6vh;
+}
+
+.home-header-text {
+  color: white;
+  font-size: 3vh;
+}
+
+.home-search-btn {
+  color: white;
+  background-color: #F28985;
+  border: solid 3px #701F1C;
+  font-size: 3vh;
+  margin: 0 2vw 0 2vw;
+}
+.home-search-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.home-save-btn {
+  color: white;
+  background-color: #BD342F;
+  border: solid 3px #701F1C;
+  font-size: 3vh;
+}
+.home-save-btn a {
+  text-decoration: none;
+  color: white;
 }/*# sourceMappingURL=main.css.map */

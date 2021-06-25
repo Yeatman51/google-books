@@ -5,21 +5,19 @@ function Home() {
     return (
         <div className="home-container">
             <div className="home-header">
-            <h1 className="home-header-text">Welcome to the ultimate book finder</h1>
+            <h1 className="home-header-title">Welcome to the ultimate book finder</h1>
             </div>
 
-            <p>This is the one place where you can search for your favorite book and save it to your custom reading list</p>
+            <p className="home-header-text">This is the one place where you can search for your favorite book and save it to your custom reading list</p>
 
-            <button>
+            <button className="home-search-btn">
             <Link
-              to="/search"
-              className="">Search</Link>
+              to="/search">Search</Link>
             </button>
 
-            <button>
+            <button className="home-save-btn">
             <Link
-              to="/save"
-              className="">Save</Link>
+              to="/save">Save</Link>
             </button>
         </div>
     )
